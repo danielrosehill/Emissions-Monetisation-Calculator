@@ -1,5 +1,7 @@
 #  Monetised GHG Emissions Calculator
 
+![alt text](charts/series-2/3.png)
+
 This repository supports a Streamlit interface which will be made available through Hugging Face Spaces to provide a simple interface for converting from companies' greenhouse gas emissions disclosures, released in quantitative terms, and for converting those into their monetized rates according to various social cost of carbon proposals .
 
 This is a second version of an earlier calculator I put together. The reason that this is a new repository is because I accidentally overwrote the data in the first calculator, and since then I've decided to take a slightly different direction with this calculator by including a few additional social cost of carbon (SCC) numbers. Rather than attempt to salvage my first calculator, I figured that it was easier to start this project from scratch bundling together a few changes.  

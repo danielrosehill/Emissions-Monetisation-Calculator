@@ -2,7 +2,7 @@ import pandas as pd
 import io
 import plotly.graph_objects as go
 
-# Load the data from the provided CSV string
+
 csv_data = """proposal_with_date,organization_name,organization_description,date,country,iso3,iso2,hdi_value,hdi_category,details,original_proposed_value,original_currency_name,original_currency_iso,average_value,usd_proposed_value,use_proposed_value_mtco2e,usd_conversion_date,value_units,environmental_units,methodologies_used,calculation_scope,is_range,
 International Foundation for Valuing Impacts (Apr 2024),International Foundation for Valuing Impacts,A non-profit organization working to standardize impact valuation.,2024-04-01,United States,USA,US,0.92,Very High,Proposed a standardized approach for companies to report GHG emissions monetarily.,$236,US dollars,USD,236,236,236000000,2024-11-20,dollars per ton CO2e,tons of carbon dioxide equivalents,Standardized impact valuation,Social Cost of Carbon,0,
 EPA (Final Report) (Dec 2023),Environmental Protection Agency,The primary federal agency responsible for environmental protection.,2023-12-01,United States,USA,US,0.92,Very High,Updated SCC values using advanced methodologies and lower discount rates.,$120-$340,US dollars,USD,230,230,230000000,2024-11-20,dollars per ton CO2e,tons of carbon dioxide equivalents,Advanced methodologies,Social Cost of Carbon,1,
