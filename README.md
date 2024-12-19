@@ -38,6 +38,8 @@ It's for this reason that this calculator is made available as a tool for analys
 
 ## Proposals - Group 1
 
+![alt text](charts/proposals_by_date.png)
+
 
 | Proposal Name                               | Date (Month, Year) | Proposed Value ($/ton CO2e) | Average Value ($/ton CO2e) | Decisive | Country          | ISO 3 | ISO 2 | HDI Category      | Details                                                                 |
 |---------------------------------------------|---------------------|-----------------------------|----------------------------|----------|------------------|-------|-------|-------------------|-------------------------------------------------------------------------|
