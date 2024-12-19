@@ -3,8 +3,8 @@ import pandas as pd
 import plotly.express as px
 
 # Path to the data file relative to the app.py file
-DATA_PATH = "https://raw.githubusercontent.com/danielrosehill/Emissions-Monetisation-Calculator/refs/heads/main/calculator-app/data.csv"
-INSTRUCTIONS_PATH = "instructions.md"
+DATA_PATH = "https://huggingface.co/spaces/danielrosehill/Monetised-GHG-Emissions-Calculator/raw/main/calculator-app/data.csv"
+INSTRUCTIONS_PATH = "https://huggingface.co/spaces/danielrosehill/Monetised-GHG-Emissions-Calculator/raw/main/calculator-app/instructions.md"
 
 GITHUB_LINK = "https://github.com/danielrosehill/Emissions-Monetisation-Calculator"
 
