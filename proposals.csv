@@ -1,0 +1,2 @@
+proposal_name,proposal_year,value,ghg_unit,ghg_unit_description,reporting_unit,unit_spec,currency_unit,currency_iso,geographical_scope,methodology,source_organization,source_document,climate_model_used,damage_categories_included,policy_context,range_low,range_high,comments
+IFVI Rate,2024,236,tco2e,tonnes of carbon dioxide equivalents,tonnes,carbon dioxide equivalents,,,,,,,,,,,,
