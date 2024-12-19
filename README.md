@@ -18,6 +18,32 @@ This repository supports a Streamlit interface which will be made available thro
 
 This is a second version of an earlier calculator I put together. The reason that this is a new repository is because I accidentally overwrote the data in the first calculator, and since then I've decided to take a slightly different direction with this calculator by including a few additional social cost of carbon (SCC) numbers. Rather than attempt to salvage my first calculator, I figured that it was easier to start this project from scratch bundling together a few changes.  
 
+## App Functionalities & Instrucions
+
+![alt text](screenshots/instructions/3.png)
+
+Enter the scope 1, 2 and 3 emissions for the company whose data you are using. The calculator makes no determinations about methodology here, so use whichever you are comfortable with.
+
+By default, the unit of reporting is set to TCO2E (tonnes of carbon dioxide equivalents). If the data you're dealing with is denominated in MTCO2E (millions of tonnes of CO2 equivalents) select that as the reporting unit and a multiplier of one million will be applied during the monetization calculation
+
+The Social Cost of Carbon proposal, annotated as number two, allows you to select a specific proposal for the monetization calculation, choosing from any of their proposals recorded in the data store.
+
+![alt text](screenshots/instructions/1.png)
+
+The various social costs of Carbon are presented as a drop down menu. You choose a value. 
+
+![alt text](screenshots/instructions/2.png)
+
+By clicking "calculate monetized emissions", the quantitative data will be monetized at the proposal selected. The user can toggle between millions and billions. In all cases the monetization value is displayed with two decimal places.
+
+![alt text](screenshots/instructions/3.png)
+
+## Social Cost Of Carbon (SCC) Explorer Tabs
+
+The app also includes a visualization graph and a drop down table selector where the user can choose to explore any of these social cost of carbon numbers in the data store.
+
+The exploration should highlight some of the large fluctuations that have been seen in the proposals over time.
+
 ## Disclaimer
 
 I was drawn to this work as a result of my employment. Nevertheless, at least in its first iterations, my work with data in the realm of environmental and sustainability topics should not be perceived as anything other than my own first entry notes and attempts at exploring various questions. High among them is the question of whether and how companies' far-reaching environmental impacts could be monetized and integrated into financial accounting - an idea, at least in some implementations, called impact accounting. I open source technical projects as a matter of course and I haven't thought it is important to distinguish between my initial work in this and other areas. 
@@ -29,8 +55,6 @@ Simulating the monetization of greenhouse gas emissions is limited by the diffic
  It' has been suggested that organisations should propose a social cost of greenhouse gas emissions encompassing both carbon dioxide and other greenhouse gases with higher  global warming potential (GWP) values But doing so would be challenging given the relative paucity of such estimates. 
 
  The practical effect of monetizing greenhouse gas emissions at proposed rates, which only consider carbon dioxide in some cases, **is that the monetizations will actually be understatements of the true estimated monetary cost of the emissions**. Therefore, the calculations will actually be conservative and understatements of the true cost of these emissions. . 
-
-
 
 ## Proposals Included In Dataset
 
