@@ -12,6 +12,8 @@ I was drawn to this work as a result of my employment. Nevertheless, at least in
 
 ## The Social Cost ... But Of What, Exactly!?
 
+![alt text](charts/series-2/4.png)
+
 The idea of trying to integrate environmental data into financial reporting is anything but straightforward. 
 
 This is unfortunate, because the idea of doing this has important ramifications for public policy, financial policy, and the question of how our economic systems should be structured. It should be added: the idea of investigating what effect monetized emissions may have on companies profitability is not an attempt to be punitive. But rather to open the door to what this type of policy might look like in practice. If the purview of the analysis were widened to considering both companies environmental and social impacts, positive impacts could be added to move the analysis away from a framework that only estimates degrees of harm. 
