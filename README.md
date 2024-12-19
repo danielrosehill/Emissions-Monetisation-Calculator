@@ -36,6 +36,29 @@ Consider, for example, the case of the oil and gas industry, which reports its G
 
 It's for this reason that this calculator is made available as a tool for analysis, calculation and policy ideation. That is to say, with an understanding that the comparisons are imperfect. But with the belief and hope that even imperfect comparisons can be useful in this context. As our struggles in the realm of climate change make abundantly clear, bringing good policy forward is a matter of urgency. 
 
+## Proposals - Group 1
+
+
+| Proposal Name                               | Date (Month, Year) | Proposed Value ($/ton CO2e) | Average Value ($/ton CO2e) | Decisive | Country          | ISO 3 | ISO 2 | HDI Category      | Details                                                                 |
+|---------------------------------------------|---------------------|-----------------------------|----------------------------|----------|------------------|-------|-------|-------------------|-------------------------------------------------------------------------|
+| International Foundation for Valuing Impacts | April 2024         | $236                        | $236                      | Yes      | United States    | USA   | US    | Very High       | Proposed a standardized approach for companies to report GHG emissions monetarily. |
+| EPA (Final Report)                          | December 2023      | $120-$340                  | $216                      | No       | United States    | USA   | US    | Very High       | Updated SCC values using advanced methodologies and lower discount rates. |
+| U.S. EPA (Updated Proposal)                 | December 2023      | $190                        | $190                      | Yes      | United States    | USA   | US    | Very High       | Finalized updated SCC values, reflecting significant increases based on best science. |
+| University of California, Davis             | July 2023          | $283                        | $283                      | Yes      | United States    | USA   | US    | Very High       | Equity-weighted SCC emphasizing climate damages and uncertainty. |
+| IMF                                         | January 2023       | $15-$50                    | $32.5                     | No       | United States    | USA   | US    | Very High       | Proposed international carbon price floor based on income levels of countries.       |
+| New York State Agencies                     | January 2021       | $125                        | $125                      | Yes      | United States    | USA   | US    | Very High       | Guidance under Climate Leadership Act to reduce emissions and achieve net-zero.      |
+| Biden Administration (IWG Interim Update)  | February 2021      | $51                         | $51                       | Yes      | United States    | USA   | US    | Very High       | Interim update reinstating Obama-era methodology with adjustments.     |
+| Trump Administration                        | October 2017       | $3-$5                      | $4                        | No       | United States    | USA   | US    | Very High       | Lowered SCC estimates focusing on domestic impacts with higher discount rates.       |
+| Climate Leadership Council                  | February 2017      | $40-$50                    | $45                       | No       | United States    | USA   | US    | Very High       | Carbon dividends plan starting at $40/ton, increasing annually by 5% above inflation.|
+| Obama Administration (IWG Update)          | November 2013      | $37                         | $37                      | Yes      | United States    | USA   | US    | Very High       | Updated SCC values for regulatory impact analyses under federal guidelines.          |
+| UK Government Economic Service              | 2002               | £35-£140                   | £112.8                 | No       | United Kingdom   | GBR   | GB    | Very High      | Recommended illustrative SCC range for policy appraisal across government sectors.   |
+| Stern Review                                | October 2006       | ~$85                       | ~$85                      | Yes      | United Kingdom   | GBR   | GB    | Very High       | Early influential report advocating for strong climate action.                       |
+| Canada Government                             | August 2023       | CAD$65                      | ~$48                      | Yes     | Canada             | CAN   | CA    | Very High       | The Federal Carbon Price was increased to CAD$65 per tonne CO2e in 2023. |
+| French Government - Quinet Report           | 2019               | €250-€770                  | ~$420 ($270-$820)         | No       | France             | FRA   | FR    | Very High       | Recommended range for the SCC with a central value around 250 Euros per tonne CO2e by 2030, rising steeply after that. |
+
+
+
+
 ## Author
 
 Daniel Rosehill  
