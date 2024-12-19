@@ -10,6 +10,8 @@ pinned: false
 
 #  Monetised GHG Emissions Calculator
 
+[![View on Hugging Face](https://img.shields.io/badge/View%20on%20Hugging%20Face-blue?logo=huggingface)](https://huggingface.co/spaces/danielrosehill/Monetised-GHG-Emissions-Calculator)
+
 ![alt text](charts/series-2/4.png)
 
 This repository supports a Streamlit interface which will be made available through Hugging Face Spaces to provide a simple interface for converting from companies' greenhouse gas emissions disclosures, released in quantitative terms, and for converting those into their monetized rates according to various social cost of carbon proposals .

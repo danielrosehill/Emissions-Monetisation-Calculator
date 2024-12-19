@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Push to GitHub and Hugging Face",
+            "type": "shell",
+            "command": "git push origin main && git push huggingface main",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+             "problemMatcher": []
+        }
+    ]
+}
