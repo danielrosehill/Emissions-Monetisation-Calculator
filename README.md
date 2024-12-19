@@ -1,6 +1,6 @@
 #  Monetised GHG Emissions Calculator
 
-![alt text](charts/series-2/3.png)
+![alt text](charts/series-2/4.png)
 
 This repository supports a Streamlit interface which will be made available through Hugging Face Spaces to provide a simple interface for converting from companies' greenhouse gas emissions disclosures, released in quantitative terms, and for converting those into their monetized rates according to various social cost of carbon proposals .
 
@@ -12,7 +12,6 @@ I was drawn to this work as a result of my employment. Nevertheless, at least in
 
 ## The Social Cost ... But Of What, Exactly!?
 
-![alt text](charts/series-2/4.png)
 
 The idea of trying to integrate environmental data into financial reporting is anything but straightforward. 
 
