@@ -1,3 +1,13 @@
+---
+title: Monetised GHG Emissions Calculator
+colorFrom: indigo
+colorTo: purple
+sdk: streamlit
+sdk_version: "1.29.0"
+app_file: calculator-app/app.py
+pinned: false
+---
+
 #  Monetised GHG Emissions Calculator
 
 ![alt text](charts/series-2/4.png)
