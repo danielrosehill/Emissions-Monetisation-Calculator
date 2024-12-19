@@ -1,6 +1,8 @@
 import pandas as pd
 import io
-import plotly.graph_objects as go
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+from datetime import datetime
 
 # Load the data from the provided CSV string
 csv_data = """proposal_with_date,organization_name,organization_description,date,country,iso3,iso2,hdi_value,hdi_category,details,original_proposed_value,original_currency_name,original_currency_iso,average_value,usd_proposed_value,use_proposed_value_mtco2e,usd_conversion_date,value_units,environmental_units,methodologies_used,calculation_scope,is_range,
@@ -25,29 +27,50 @@ PAGE Model (2019),Cambridge University,Policy Analysis model of climate damages.
 
 df = pd.read_csv(io.StringIO(csv_data))
 
+# Convert 'date' to datetime objects
+df['date'] = pd.to_datetime(df['date'])
+
 # Convert 'average_value' to numeric
 df['average_value'] = pd.to_numeric(df['average_value'], errors='coerce')
 
-# Sort by 'average_value' in descending order
-df_sorted = df.sort_values(by='average_value', ascending=False)
+# Filter out future dates
+current_date = datetime.now()
+df = df[df['date'] <= current_date]
 
-# Create the Plotly bar chart
-fig = go.Figure(data=[go.Bar(
-    x=df_sorted['organization_name'],
-    y=df_sorted['average_value'],
-    text=df_sorted['average_value'],
-    textposition='outside',
-    marker_color='skyblue'
-)])
+# Sort by date
+df = df.sort_values(by='date')
 
-# Update layout
-fig.update_layout(
-    title='Social Cost of Carbon Proposals (Highest to Lowest)',
-    xaxis_title='Organization',
-    yaxis_title='Proposed Value (USD per ton CO2e)',
-    plot_bgcolor='white',
-    xaxis=dict(tickangle=-45, gridcolor='lightgray'),
-    yaxis=dict(gridcolor='lightgray')
-)
+# Create the plot
+fig, ax = plt.subplots(figsize=(12, 6))
 
-fig.show()
+# Plot the average values over time
+ax.plot(df['date'], df['average_value'], marker='o', linestyle='-', color='skyblue')
+
+# Set x-axis major locator to show years
+ax.xaxis.set_major_locator(mdates.YearLocator())
+ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y'))
+
+# Highlight decades with shaded backgrounds
+decades = df['date'].dt.year.unique() // 10 * 10
+for decade in sorted(set(decades)):
+    start_date = pd.to_datetime(f'{decade}-01-01')
+    end_date = pd.to_datetime(f'{decade+9}-12-31')
+    ax.axvspan(start_date, end_date, facecolor='lightgray', alpha=0.3, label=f'{decade}s' if decade in decades else None)
+
+# Add labels and title
+ax.set_xlabel('Date')
+ax.set_ylabel('Proposed Value (USD per ton CO2e)')
+ax.set_title('Evolution of Social Cost of Carbon Proposals Over Time')
+
+# Rotate date labels for better readability
+plt.xticks(rotation=45, ha='right')
+plt.tight_layout()
+
+# Add a legend for the decades
+handles, labels = ax.get_legend_handles_labels()
+ax.legend(handles, labels, title='Decades')
+
+# Set grid lines
+ax.grid(True, which='both', linestyle='--', linewidth=0.5)
+
+plt.show()

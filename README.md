@@ -36,9 +36,14 @@ Consider, for example, the case of the oil and gas industry, which reports its G
 
 It's for this reason that this calculator is made available as a tool for analysis, calculation and policy ideation. That is to say, with an understanding that the comparisons are imperfect. But with the belief and hope that even imperfect comparisons can be useful in this context. As our struggles in the realm of climate change make abundantly clear, bringing good policy forward is a matter of urgency. 
 
-## Proposals - Group 1
+## Proposals - Charts
 
-![alt text](charts/proposals_by_date.png)
+![alt text](charts/series-2/1.png)
+
+![alt text](charts/series-2/2.png)
+
+## Proposals - Group 1
+ 
 
 
 | Proposal Name                               | Date (Month, Year) | Proposed Value ($/ton CO2e) | Average Value ($/ton CO2e) | Decisive | Country          | ISO 3 | ISO 2 | HDI Category      | Details                                                                 |
