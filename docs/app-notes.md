@@ -1,0 +1,9 @@
+# Calculator App Notes
+
+Simulating the monetization of greenhouse gas emissions is limited by the difficulties of working with two different yardsticks: the social cost of carbon, which only considers carbon dioxide emissions, and the quantitative reporting data from companies for greenhouse gas emissions (GHG), which almost always includes gases beyond carbon dioxide, expressed in carbon dioxide equivalents. 
+
+ It has been suggested that organisations should propose a social cost of greenhouse gas emissions encompassing both carbon dioxide and other greenhouse gases with higher global warming potential (GWP) values But doing so would be challenging given the relative paucity of such estimates. 
+
+ A further difficulty in this enterprise is that greenhouse gas emissions are reported by companies in several different units, owing to the vastly different emissions footprints seen across different industries. For example, the oil and gas industry reports emissions in millions of tons of carbon dioxide equivalents by convention. But such a large unit of measurement doesn't make sense for companies in different industries, like the technology sector, which might have vastly smaller emissions footprints. 
+
+ When working with both of these data points, it's important to be cognizant of these differences. For example, the multiplication factor for converting what an oil and gas company may report as 1 MTCO2E Using the International Foundation for Valuing Impacts (IFVI) rate Of $236 per ton of CO2 equivalents is not 236, but rather 236,000,000. Needless to say, you're omitting this from calculations would result in massive errors. 
