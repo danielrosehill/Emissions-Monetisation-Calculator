@@ -8,7 +8,7 @@ app_file: calculator-app/app.py
 pinned: false
 ---
 
-#  Monetised GHG Emissions Calculator
+#  Monetised GHG Emissions Calculator Tool
 
 [![View on Hugging Face](https://img.shields.io/badge/View%20on%20Hugging%20Face-blue?logo=huggingface)](https://huggingface.co/spaces/danielrosehill/Monetised-GHG-Emissions-Calculator)
 
